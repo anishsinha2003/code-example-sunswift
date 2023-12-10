@@ -1,0 +1,59 @@
+.progress-bar {
+  background: #959595;
+  width: 600px;
+  height: 10px;
+  border-radius: 5px;
+}
+
+.progress-bar div {
+  height: 10px;
+  border-radius: 5px;
+  width: 86%;
+  background-color: green;
+}
+
+.progress-bar div span {
+  height: 40px;
+  border-radius: 50%;
+  width: 40px;
+  background-color: #f2f2f2;
+  float: right;
+  margin-top: -15px;
+  margin-right: -20px;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid green;
+}
+
+.skillName {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+.skillsBody {
+  padding: 0;
+  margin: 0;
+}
+
+.skillsParent {
+  display: flex;
+  flex-direction: row;
+}
+
+.skillsChild1 {
+  width: 50%;
+  height: 100vh;
+  background-color: green;
+  text-align: right;
+  color: white;
+}
+
+.child2 {
+  width: 50%;
+  color: green;
+  height: 100vh;
+}
